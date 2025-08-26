@@ -54,7 +54,7 @@ const DropReviews = ({session}) => {
          handleOpen()
 
         //  console.log("Document written with ID: ", docRef.id);
-        //  resetForm()
+         resetForm()
 
         } catch (error) {
           console.error("Error adding data", error);
